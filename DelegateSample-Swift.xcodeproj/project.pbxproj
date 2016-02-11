@@ -159,6 +159,8 @@
 		768D90DA1ADC1FD3002B4FA6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = shoya140;
 				TargetAttributes = {
@@ -413,6 +415,7 @@
 				768D91031ADC1FD3002B4FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		768D91041ADC1FD3002B4FA6 /* Build configuration list for PBXNativeTarget "DelegateSample-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +424,7 @@
 				768D91061ADC1FD3002B4FA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

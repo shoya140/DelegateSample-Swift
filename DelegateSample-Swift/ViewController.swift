@@ -8,24 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController, SampleObjectdelegate {
+class ViewController: UIViewController, SampleObjectDelegate {
+    
+    // MARK: - View Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         let sample = SampleObject()
         sample.delegate = self
         sample.call()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
+    // MARK: - SampleObjectDelegate
     
     func gotMessage(text: String) {
-        println(text)
+        print(text)
     }
 
 }

@@ -8,18 +8,15 @@
 
 import UIKit
 
-protocol SampleObjectdelegate: class {
+protocol SampleObjectDelegate: class {
     func gotMessage(text: String)
 }
 
 class SampleObject: NSObject {
-    override init(){
-        super.init()
-    }
     
-    weak var delegate: SampleObjectdelegate? = nil
+    weak var delegate: SampleObjectDelegate? = nil
 
     func call() {
-        self.delegate?.gotMessage("Hello, World")
+        self.delegate?.gotMessage("Hello, World!")
     }
 }
